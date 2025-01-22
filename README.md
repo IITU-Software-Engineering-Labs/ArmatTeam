@@ -8,3 +8,7 @@ print("test")
 
 
 ```
+
+```java
+System.out.println("Hello World");
+```
