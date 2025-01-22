@@ -49,4 +49,7 @@ fmt.Println("Artur")
 ```go
 fmt.Println("Callisto")
 ```
+```chrome console
+
 console.log("Double Aruzhan")
+```
