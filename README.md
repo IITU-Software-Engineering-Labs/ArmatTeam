@@ -23,3 +23,8 @@ fmt.Println("Hello")
 ```c++
 cout<<"Yerlan the best"
 ```
+
+```python
+
+print("If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.")
+
