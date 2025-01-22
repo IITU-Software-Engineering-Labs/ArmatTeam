@@ -10,6 +10,13 @@ print("test")
 System.out.println("Hello World");
 ```
 
+```kotlin
+var name="abdulla"
+print(name)
+
+```
+
+
 ```go
 fmt.Println("Hello")
 ```
