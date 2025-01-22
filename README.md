@@ -40,3 +40,6 @@ print("Aruzhan and Aruzhan are very beautifull girls,It's a fact")
 ```go
 fmt.Println("Nurasil")
 ```
+```go
+fmt.Println("Nikita")
+```
