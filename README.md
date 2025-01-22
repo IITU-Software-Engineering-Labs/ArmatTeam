@@ -41,7 +41,7 @@ print("Aruzhan and Aruzhan are very beautifull girls,It's a fact")
 fmt.Println("Nurasil")
 ```
 ```go
-fmt.Println("Nikita")
+fmt.Println("nikitos?")
 ```
 ```go
 fmt.Println("Artur")
