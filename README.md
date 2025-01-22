@@ -12,3 +12,7 @@ print("test")
 ```java
 System.out.println("Hello World");
 ```
+
+```go
+fmt.Println("Hello")
+```
