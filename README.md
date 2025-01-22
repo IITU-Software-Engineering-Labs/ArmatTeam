@@ -43,3 +43,6 @@ fmt.Println("Nurasil")
 ```go
 fmt.Println("Nikita")
 ```
+```go
+fmt.Println("Artur")
+```
