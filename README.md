@@ -43,8 +43,14 @@ fmt.Println("Nurasil")
 ```go
 fmt.Println("nikitos?")
 ```
-```go
-fmt.Println("Artur")
+```python
+class Person:
+  def __init__(self):
+    self.name = 'Artur'
+    self.github_name = 'litemat'
+
+  def get_info(self):
+    return {name: self.name, github_name: self.github_name}
 ```
 ```go
 fmt.Println("Callisto")
