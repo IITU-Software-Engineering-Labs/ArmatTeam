@@ -49,3 +49,4 @@ fmt.Println("Artur")
 ```go
 fmt.Println("Callisto")
 ```
+console.log("Double Aruzhan")
