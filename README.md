@@ -50,7 +50,7 @@ class Person:
     self.github_name = 'litemat'
 
   def get_info(self):
-    return {name: self.name, github_name: self.github_name}
+    return {"name": self.name, "github_name": self.github_name}
 ```
 
 ```go
