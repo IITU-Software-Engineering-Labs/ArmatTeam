@@ -1,0 +1,17 @@
+.section {
+  width: 100%;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    .top {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      p {
+        width: 25%;
+      }
+    }
+  }
+}

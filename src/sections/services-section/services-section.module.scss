@@ -1,0 +1,44 @@
+.servicesSection {
+  width: 100%;
+
+  .top {
+    margin-bottom: 80px;
+    display: flex;
+    gap: 40px;
+
+    p {
+      width: 48%;
+    }
+  }
+
+  .cards {
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 45px;
+    background-color: #f3f3f3;
+    padding: 40px 60px;
+    margin-top: 100px;
+    position: relative;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+      width: 45%;
+      align-items: baseline;
+    }
+
+    img {
+      position: absolute;
+      right: 135px;
+      bottom: -35px;
+    }
+  }
+}

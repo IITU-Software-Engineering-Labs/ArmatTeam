@@ -1,0 +1,63 @@
+@use "../../styles/vars.scss" as vars;
+
+.footer {
+  width: 100%;
+  margin-top: 60px;
+
+  .footerContent {
+    border-radius: 45px 45px 0 0;
+    padding: 60px;
+    background-color: vars.$dark;
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 66px;
+
+      nav {
+        display: flex;
+        color: white;
+        gap: 40px;
+        text-decoration: underline;
+      }
+    }
+
+    .body {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      .left {
+        .info {
+          margin-top: 27px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          color: white;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        background-color: #292a32;
+        padding: 60px 40px;
+        gap: 20px;
+        border-radius: 14px;
+      }
+    }
+
+    .bottom {
+      margin-bottom: -10px;
+      margin-top: 50px;
+      gap: 40px;
+      color: white;
+      display: flex;
+      align-items: center;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}

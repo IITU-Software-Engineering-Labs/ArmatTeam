@@ -1,0 +1,100 @@
+@use "../../styles/vars.scss" as vars;
+
+.card {
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  border-radius: 45px;
+  box-shadow: 0px 5px black;
+  transition: 0.5s;
+  justify-content: space-between;
+
+  &:hover {
+    cursor: pointer;
+    scale: 1.01;
+
+    .arrow {
+      rotate: 35deg;
+    }
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 93px;
+
+    .learn {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      span {
+        font-weight: normal;
+        font-size: 1.25rem;
+      }
+
+      .icon {
+        width: fit-content;
+        border-radius: 100%;
+        padding: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+
+        .arrow {
+          transform: rotate(-35deg);
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+
+  .right {
+    width: 210px;
+  }
+}
+
+.primary {
+  background-color: vars.$primary;
+
+  .icon {
+    background-color: black;
+
+    .arrow {
+      color: vars.$primary;
+    }
+  }
+}
+
+.light {
+  background-color: vars.$light;
+
+  .icon {
+    background-color: black;
+
+    .arrow {
+      color: vars.$primary;
+    }
+  }
+}
+
+.dark {
+  background-color: vars.$dark;
+
+  .learn {
+    span {
+      color: white;
+    }
+
+    .icon {
+      background-color: white;
+
+      .arrow {
+        color: vars.$dark;
+      }
+    }
+  }
+}

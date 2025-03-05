@@ -1,0 +1,10 @@
+.homePage {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+  }
+}

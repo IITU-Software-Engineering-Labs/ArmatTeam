@@ -1,0 +1,28 @@
+@use "../../styles/vars.scss" as vars;
+
+button {
+  width: fit-content;
+  border-radius: 14px;
+  padding: 20px 35px;
+  transition: 0.2s;
+  
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+}
+
+.primary {
+  color: black;
+  background-color: vars.$primary;
+}
+
+.light {
+  border: solid 1px vars.$dark;
+  background-color: white;
+}
+
+.dark {
+  color: white;
+  background-color: vars.$dark;
+}

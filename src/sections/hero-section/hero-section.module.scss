@@ -1,0 +1,18 @@
+.section {
+  width: 100%;
+
+  .sectionContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 60px;
+
+    .left {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      gap: 35px;
+    }
+  }
+}

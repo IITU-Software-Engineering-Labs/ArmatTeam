@@ -1,0 +1,16 @@
+@use "../../styles/vars.scss" as vars;
+
+.fancyBoarder {
+  border-radius: 7px;
+  padding: 0 7px;
+  width: fit-content;
+}
+
+.primary {
+  background-color: vars.$primary;
+  color: black;
+}
+.light {
+  background-color: white;
+  color: black;
+}

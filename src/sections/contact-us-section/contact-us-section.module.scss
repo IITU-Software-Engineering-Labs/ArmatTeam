@@ -1,0 +1,103 @@
+@use "../../styles/vars.scss" as vars;
+
+.section {
+  width: 100%;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    .top {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      p {
+        width: 25%;
+      }
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      background-color: vars.$light;
+      border-radius: 45px;
+      padding: 60px 0px 60px 100px;
+      justify-content: space-between;
+    }
+
+    .left {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      .checkboxes {
+        display: flex;
+        gap: 35px;
+        div {
+          display: flex;
+          gap: 14px;
+          align-items: center;
+
+          input {
+            appearance: none;
+            width: 28px;
+            height: 28px;
+            border: 1px solid black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            cursor: pointer;
+            transition: border-color 0.3s ease-in-out;
+          }
+
+          input::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background-color: transparent;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            transition: background-color 0.2s ease-in-out,
+              transform 0.2s ease-in-out;
+          }
+
+          input:checked::before {
+            background-color: vars.$primary;
+            transform: translate(-50%, -50%) scale(1);
+          }
+        }
+      }
+
+      .inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+        div {
+          font-size: 18px;
+          font-weight: normal;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          .massage {
+            height: 200px;
+          }
+        }
+      }
+
+      Button {
+        width: 50%;
+      }
+    }
+
+    .right {
+    }
+  }
+}

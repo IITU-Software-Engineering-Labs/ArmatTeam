@@ -1,0 +1,35 @@
+@use "../../styles/vars.scss" as vars;
+
+.border {
+  border: solid 1px black;
+  border-radius: 45px;
+  padding: 40px 35px;
+  box-shadow: 0 5px;
+  .content {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+
+    .right {
+      width: 100%;
+      display: flex;
+
+      flex-direction: column;
+      justify-content: space-between;
+
+      .info {
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+      }
+      .icon {
+        display: flex;
+        align-self: flex-end;
+      }
+    }
+  }
+
+  hr {
+    margin: 28px 0;
+  }
+}

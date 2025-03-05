@@ -1,0 +1,28 @@
+.input {
+  width: 50%;
+  border: solid 1px;
+  border-radius: 14px;
+  padding: 22px 35px;
+}
+
+textarea {
+  resize: none;
+}
+
+.transparent {
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  &::placeholder {
+    color: white;
+  }
+}
+
+.white {
+  border-color: black;
+  background-color: white;
+  color: black;
+  &::placeholder {
+    color: #898989;
+  }
+}
